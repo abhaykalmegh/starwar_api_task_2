@@ -5,4 +5,5 @@ def time_calculate(function):
         function()
         end_time = time.time()
         total = end_time - start_time
-        return total
+        print(total)
+    return wrapper
